@@ -123,7 +123,8 @@ module.exports.config = {
 module.exports.run = async ({ api, event, args, Threads, Users, getText }) => {
   // إرسال رسالة بسيطة عند تنفيذ الأمر
   api.sendMessage('مرحبًا بالعالم!', event.threadID, event.messageID);
-}```
+}
+```
 
 ---
 
